@@ -1,10 +1,11 @@
 import { ArrowUpIcon, TrashIcon } from '@radix-ui/react-icons'
 import styles from './Comment.module.css'
+import { Avatar } from './Avatar'
 
 export function Comment() {
     return (
         <div className={styles.comment}>
-            <img src="https://github.com/paulov-dev.png"/>
+            <Avatar hasBorder={false} src="https://github.com/paulov-dev.png"/>
 
             <div className={styles.commentBox}>
 

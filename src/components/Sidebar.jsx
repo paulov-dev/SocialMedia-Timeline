@@ -1,6 +1,7 @@
 import { Pencil2Icon } from "@radix-ui/react-icons";
  
 import styles from './Sidebar.module.css'
+import { Avatar } from "./Avatar";
 
 export function Sidebar() {
     return (
@@ -11,10 +12,7 @@ export function Sidebar() {
             />
    
             <div className={styles.profile}>
-                <img 
-                    className={styles.avatar}
-                    src='https://avatars.githubusercontent.com/u/114274633?v=4'
-                />
+                <Avatar src="https://github.com/paulov-dev.png" />
 
                 <strong>Paulo Marques</strong>
                 <span>Web Developer</span>
